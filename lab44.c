@@ -9,6 +9,7 @@ int main()
 {
 	int fp[2];
 	int buffer[1024];
+	pipe(fp);
 	if(pipe(fp) == -1)
 	{
 		printf("Pipe Failed");

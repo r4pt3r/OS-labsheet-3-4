@@ -12,6 +12,7 @@ int main()
 char buffer[1024];
 int fd[2];
 pid_t pid;
+pipe(fd);
 if (pipe(fd) == -1) 
 {
 	printf("Pipe failed"); 

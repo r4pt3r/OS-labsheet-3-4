@@ -14,6 +14,8 @@ int main()
 	int fp2[2];
 	int sum,n;
 	int buffer[1024];
+	pipe(fp1);
+	pipe(fp2);
 	if(pipe(fp1) ==-1)
 	{
 		printf("Pipe1 Failed");

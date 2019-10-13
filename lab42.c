@@ -9,7 +9,7 @@
 #define WRITEEND 1
 int main()
 {
-char buffer[1024];
+char buffer[BUFFERSIZE];
 int fd[2];
 pid_t pid;
 pipe(fd);

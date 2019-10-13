@@ -72,6 +72,7 @@ int main()
 			printf("Sum : %d\n",*sum);
 			printf("N: %d\n",*siz);
 			printf("Mean Square Average: %0.2f",avg);
+			wait(NULL);
 		}
 	}
 	//shmdt(arr);

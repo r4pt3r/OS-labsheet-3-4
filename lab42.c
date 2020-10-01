@@ -20,8 +20,8 @@ if (pipe(fd) == -1)
 pid=fork();
 if(pid==0)
 {
-	printf("Child:\n");
-	printf("Enter String: ");
+	//printf("Child:\n");
+	//printf("Enter String: ");
 	scanf("%s",&buffer);
 	close(fd[0]);
 	write(fd[1],buffer,strlen(buffer)+1);

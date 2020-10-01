@@ -10,7 +10,7 @@ int main()
 	int shmid;
 	char *str;
 	shmid=shmget(IPC_PRIVATE,1024,IPC_CREAT|0666);
-	//printf("%d",shmid);
+	printf("%d",shmid);
 	pid_t pid=fork();
 	if(pid<0)
 		printf("Fork failed");

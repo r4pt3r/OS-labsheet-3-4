@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <sys/wait.h>
-#define RD 0
-#define WR 1
 int main()
 {
 	int fp[2];

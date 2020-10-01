@@ -13,6 +13,7 @@ int main()
 	if(pid==0)
 	{
 		printf("Child: \n");
+		//printf("child");
 		a=(int*)shmat(shmid,0,0);
 		//printf("MID : %d\n",shmid);
 		printf("Enter numbers untill, a special character is entered: \n");

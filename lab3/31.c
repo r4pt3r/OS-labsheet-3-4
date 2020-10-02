@@ -1,3 +1,4 @@
+//cpp program on child and parent process to find the area and perimeter
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
